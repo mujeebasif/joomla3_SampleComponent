@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.0" method="upgrade">
+    <name>Sample</name>
+    <version>1.0</version>
+    <creationDate>August 23, 2015</creationDate>
+    <author>Muhammad Mujeeb Asif</author>
+    <authorEmail>mmammjb1@gmail.com</authorEmail>
+    <authorUrl>https://pk.linkedin.com/in/mujeebasif</authorUrl>
+    <copyright>2015 mmamjb1@gmail.com</copyright>
+    <license>Open Source License, GNU GPL</license>
+    <description>A Joomla Component to Execute CURL</description>
+
+	<installfile>install.php</installfile>
+	<install>
+		<sql>
+			<file charset="utf8" driver="mysql">install.sql</file>
+		</sql>
+	</install>
+
+	<languages>
+		<language tag="en-GB">en-GB.com_sample.ini</language>
+		<language tag="en-GB">en-GB.com_sample.sys.ini</language>
+	</languages>
+
+
+	<administration>
+		<menu img="" link="option=com_sample">COM_SAMPLE</menu>
+
+		<files folder="admin">
+			<filename>sample.php</filename>
+			<filename>controller.php</filename>
+			<filename>index.html</filename>
+			<filename>config.xml</filename>
+			<filename>install.sql</filename>
+			<folder>assets</folder>
+			<folder>controllers</folder>
+			<folder>helpers</folder>
+			<folder>lib</folder>
+			<folder>models</folder>
+			<folder>plugins</folder>
+			<folder>tables</folder>
+			<folder>views</folder>		
+		</files>
+
+		<languages>
+			<language tag="en-GB">en-GB.com_sample.ini</language>
+			<language tag="en-GB">en-GB.com_sample.sys.ini</language>
+		</languages>
+	</administration>
+</extension>

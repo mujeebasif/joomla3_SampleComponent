@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <fieldset
+            name="opts"
+            label="com_sample Options"
+            description="com_sample Options">
+
+        <field
+                name="curl_url" type="text"
+                label="CURL URL"
+                description="CURL URL"
+                default="http://www.cs.tut.fi/cgi-bin/run/~jkorpela/echo.cgi"
+                />
+
+        <!--<field
+                name="spacer3"
+                type="spacer"
+                hr="true"
+                />-->
+
+    </fieldset>
+
+
+
+
+
+</config>
